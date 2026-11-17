@@ -1,0 +1,180 @@
+{
+  "title": "Gestione pratiche dello sportello",
+  "description": "Dashboard per consultare e registrare pratiche inventate, con stato e scadenza. Filtra l’elenco per stato o ufficio e individua le pratiche in scadenza.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Quadro sintetico delle pratiche dello sportello e delle prossime scadenze.",
+      "metrics": [
+        {
+          "label": "Pratiche aperte",
+          "value": "18"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "11"
+        },
+        {
+          "label": "In attesa",
+          "value": "4"
+        },
+        {
+          "label": "In scadenza entro 7 giorni",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Stato",
+        "Ufficio",
+        "Pratica",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "In lavorazione",
+          "Nubi Servizi",
+          "Richiesta certificazione",
+          "2026-06-18"
+        ],
+        [
+          "In attesa",
+          "Vela Accoglienza",
+          "Aggiornamento dati",
+          "2026-06-20"
+        ],
+        [
+          "Da assegnare",
+          "Lumo Sportello",
+          "Richiesta informativa",
+          "2026-06-22"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "elenco-pratiche",
+      "title": "Elenco pratiche",
+      "description": "Tabella filtrabile con pratiche, ufficio assegnatario, stato e data di scadenza.",
+      "metrics": [],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Ufficio",
+        "Tipo pratica",
+        "Stato",
+        "Data apertura",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "PR-2701",
+          "Lumo Riva",
+          "Nubi Servizi",
+          "Richiesta certificazione",
+          "In lavorazione",
+          "2026-06-02",
+          "2026-06-18"
+        ],
+        [
+          "PR-2702",
+          "Vela Sori",
+          "Vela Accoglienza",
+          "Aggiornamento dati",
+          "In attesa",
+          "2026-06-03",
+          "2026-06-20"
+        ],
+        [
+          "PR-2703",
+          "Nubi Tesa",
+          "Lumo Sportello",
+          "Richiesta informativa",
+          "Da assegnare",
+          "2026-06-04",
+          "2026-06-22"
+        ],
+        [
+          "PR-2704",
+          "Riva Lume",
+          "Nubi Servizi",
+          "Attestazione",
+          "Completata",
+          "2026-05-28",
+          "2026-06-10"
+        ],
+        [
+          "PR-2705",
+          "Sori Nuba",
+          "Vela Accoglienza",
+          "Revisione pratica",
+          "In lavorazione",
+          "2026-06-05",
+          "2026-06-24"
+        ],
+        [
+          "PR-2706",
+          "Tesa Veli",
+          "Lumo Sportello",
+          "Richiesta certificazione",
+          "In attesa",
+          "2026-06-06",
+          "2026-06-26"
+        ],
+        [
+          "PR-2707",
+          "Lume Nori",
+          "Nubi Servizi",
+          "Aggiornamento dati",
+          "In lavorazione",
+          "2026-06-07",
+          "2026-06-27"
+        ],
+        [
+          "PR-2708",
+          "Veli Runa",
+          "Vela Accoglienza",
+          "Richiesta informativa",
+          "Da assegnare",
+          "2026-06-08",
+          "2026-06-29"
+        ]
+      ],
+      "form": [
+        "Codice pratica",
+        "Richiedente",
+        "Ufficio",
+        "Tipo pratica",
+        "Stato",
+        "Data apertura",
+        "Scadenza"
+      ]
+    },
+    {
+      "id": "nuova-pratica",
+      "title": "Nuova pratica",
+      "description": "Registra una pratica di prova con dati essenziali e una scadenza da monitorare.",
+      "metrics": [],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Ufficio",
+        "Tipo pratica",
+        "Stato",
+        "Data apertura",
+        "Scadenza"
+      ],
+      "rows": [],
+      "form": [
+        "Codice pratica",
+        "Richiedente",
+        "Ufficio",
+        "Tipo pratica",
+        "Stato",
+        "Data apertura",
+        "Scadenza"
+      ]
+    }
+  ]
+}
